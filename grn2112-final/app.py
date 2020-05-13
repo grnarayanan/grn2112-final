@@ -17,9 +17,9 @@ def hello():
     return render_template("index.html")
 
 #assignments page route
-@app.route("/assignments/")
+@app.route("/states/")
 def assignments():
-    return "Welcome to the Assignments page!"
+    return render_template("states.html")
 
 #classes page route
 @app.route("/classes/")
